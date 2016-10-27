@@ -1,4 +1,4 @@
-# ssh
+# SSH
 ###A file transfer script
 
 ssh is a Python sender and receiver for the ssh protocol.
@@ -26,5 +26,15 @@ Required to receive the file. Upon attempted connection, you will be asked to ap
 If transfer is successful, files will be copied to **/root/Downloads** (if root) or **/home/USERNAME/Downloads** .  
 
 ---
-###Contributing
+###3. Testing
+
+- Clone the project to your machine, using the following command in the terminal.
+git clone https://github.com/*your-username*/ssh.git
+
+- Run the files using the command in the terminal
+python filename.py
+Here, filename is the name of the python file.
+
+###4. Contributing
+Contributions are welcomed!
 To contribute, send pull requests.
